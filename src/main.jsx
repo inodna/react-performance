@@ -1,7 +1,10 @@
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import Root from "./routes/root";
-import Index from "./routes/index";
 import Memo from "./routes/memo";
 import UseMemo from "./routes/use-memo";
 import UseCallback from "./routes/use-callback";
@@ -14,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Index />,
+        element: <Navigate to="/memo" />,
       },
       {
         path: "memo",

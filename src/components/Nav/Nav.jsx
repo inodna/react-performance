@@ -2,12 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const routes = [
   {
-    url: "/",
-    anchor: "Home",
-  },
-  {
     url: "/memo",
-    anchor: "Memo",
+    anchor: "memo",
   },
   {
     url: "/use-memo",
