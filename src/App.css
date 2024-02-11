@@ -38,3 +38,37 @@ nav a.active {
   background-color: var(--brand);
   color: #fff;
 }
+
+.counter {
+  font-size: 3rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 8px 32px;
+}
+
+.wrapper {
+  height: calc(100svh - 40px);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.img--center {
+  margin-inline: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+}

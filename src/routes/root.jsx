@@ -3,9 +3,11 @@ import { Nav } from "../components/Nav/Nav";
 
 export default function Root() {
   return (
-    <div className="container">
+    <main className="container">
       <Nav />
-      <Outlet />
-    </div>
+      <section className="wrapper">
+        <Outlet />
+      </section>
+    </main>
   );
 }
