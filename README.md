@@ -43,3 +43,7 @@ Una vez los cambios han sido commiteados, React se pone inactivo y espera al pr�
 # useCallback hook
 
 - Es el syntactic sugar de useMemo y está pensado para usarlo con funciones en vez de arrays/objetos.
+
+# Future of Memoization
+
+React Forget es un compilador que resuelve estos problemas por nosotros. En marzo del 2023 se usó en producción en algunas partes de Facebook.
